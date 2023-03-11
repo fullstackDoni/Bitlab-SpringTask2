@@ -1,0 +1,270 @@
+body{
+    background-color: #e6e9ec;
+    font-family: "Segoe UI", serif;
+}
+
+header{
+    background-color: #4d75a2;
+}
+
+.header-content{
+    margin: auto;
+    display: flex;
+    max-width: 996px;
+}
+
+.logo{
+
+}
+
+.logo>img{
+    cursor: pointer;
+}
+
+.search{
+    margin-left: 12%;
+    display: flex;
+    margin-top: 6px;
+}
+
+.search-logo{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #2c4869;
+    height: 32px;
+}
+
+.search-logo>svg{
+    margin-left: 12px;
+    margin-top: 9px;
+    color: #838383;
+}
+
+.search>svg{
+    margin-top: 7px;
+}
+
+.search>input{
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #2c4869;
+    color: #838383;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.container{
+    margin: auto;
+    max-width: 996px;
+    display: flex;
+}
+
+.navbar{
+
+}
+
+.navbar>ul{
+    padding: 0;
+}
+
+.navbar>ul>li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.navbar>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.friends-container{
+    width: 610px;
+    margin-left: 50px;
+    margin-top: 13px;
+    border-radius: 5px;
+}
+
+.friends-inf{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.all-friends{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 14px;
+}
+
+.friends-online{
+    padding-top: 12px;
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+.find-friends{
+    padding-top: 8px;
+    margin-left: 43%;
+}
+
+.find-friends>button{
+    font-size: 12px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    background-color: #4d75a2;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.friends-search{
+    margin-top: 3px;
+    padding: 12px;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.friends-search>input{
+    margin-left: 8px;
+    font-size: 14px;
+    width: 590px;
+    border: none;
+    outline: none;
+}
+.friends-search-logo{
+    cursor: pointer;
+    color: #838383;
+}
+
+.friends-list{
+
+}
+
+.friend{
+    width: 586px;
+    margin-top: 3px;
+    padding: 12px;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.friend-avatar>img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.friend-name{
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
+.friend-full-name{
+    color: #4d75a2;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.friend-uni{
+    font-size: 15px;
+}
+
+.friend-name>a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #4d75a2;
+}
+
+.options{
+    position: absolute;
+    margin-left: 37%;
+}
+.options>svg{
+    margin-top: 5px;
+    float: right;
+    cursor: pointer;
+    color: #4d75a2;
+}
+
+.features-and-possible-friends{
+    margin-top: 13px;
+    margin-left: 12px;
+}
+
+.features{
+    width: 226px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.features>ul{
+    margin: 0;
+    padding-inline-start: 0;
+    padding: 12px 0 12px 0;
+    list-style-type: none;
+}
+
+.features>ul>li{
+    padding: 5px 0 5px 12px;
+    margin-top: 10px;
+}
+.features>ul>li:hover{
+    background-color: #e6e9ec;
+    font-weight: bold;
+}
+.features>ul>li:first-child{
+    margin-top: 0;
+}
+
+.possible-friends {
+    width: 202px;
+    margin-top: 12px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.possible-friends-title{
+    font-size: 14px;
+}
+
+.possible-friends-list{
+    margin-top: 12px;
+}
+
+.possible-friend{
+    display: flex;
+}
+
+.possible-friend-name{
+    margin-left: 12px;
+}
+
+.possible-friend-avatar>img{
+    width: 55px;
+    height: 55px;
+    margin-top: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.possible-friend-full-name{
+    font-size: 11px;
+}
+
+.possible-friend-mutualf{
+    font-size: 11px;
+}
+
+.possible-friend-name>a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #4d75a2;
+}
